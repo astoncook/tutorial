@@ -40,3 +40,24 @@ print(stack.pop()) #removes 10
 print(stack)
 # [ 1]
 ```
+
+## Example
+Try this problem yourself and write on a paper line by line to keep track of this problem:
+
+```py
+stack[]
+
+stack.append(1)
+stack.append(10)
+stack.pop()
+stack.append(100)
+stack.append(1000)
+stack.pop()
+stack.pop()
+stack.append(10000)
+stack.append(100000)
+stack.pop()
+
+# What remains
+print(stack)
+```
