@@ -10,6 +10,6 @@ We can use this data structure in the real world for things like:
 
 In simple terms we have two main functions associated with stack. Those are "Push" and "Pop". There are many more, but for today we will talk about the main two.
 
-![Stack](Picture Files\Stackpicture.png)
+![Stack](Pictured\Stackpicture.png)
 
 # Push
