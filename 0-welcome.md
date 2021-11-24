@@ -2,7 +2,7 @@
 
 Welcome to my Python Databases Tutorial. Advancing in Python can be a fun thing, but having the basics of efficency and data structures will help a programmer tremendously. These are the topics I am going to cover:
 
-* [Stacks](https://github.com/astoncook/tutorial/blob/master/1-topic.mdd)
+* [Stacks](https://github.com/astoncook/tutorial/blob/master/1-topic.md)
 * [Set](https://github.com/astoncook/tutorial/blob/master/2-topic.md)
 * [Trees](https://github.com/astoncook/tutorial/blob/master/3-topic.md)
 
