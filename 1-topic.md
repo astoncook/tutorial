@@ -11,7 +11,7 @@ We can use this data structure in the real world for things like:
 
 In simple terms we have two main functions associated with stack. Those are "Push" and "Pop". There are many more, but for today we will talk about the main two.
 
-![Stack](stack-picture.png)
+![Stack](pictures/stack-picture.png)
 
 ## Push
 
@@ -61,3 +61,55 @@ stack.pop()
 # What remains
 print(stack)
 ```
+<details>
+<summary markdown="span">Solution To Practice Example</summary>
+
+```py
+stack = []
+
+stack.append(1) # [1]
+stack.append(10) # [1, 10]
+stack.pop() # [1]
+stack.append(100) # [1, 100]
+stack.append(1000) # [1, 100, 1000]
+stack.pop() # [1, 100]
+stack.pop() # [1]
+stack.append(10000) # [1, 10000]
+stack.append(100000) # [1, 10000, 100000]
+stack.pop() # [1, 10000]
+
+# What remains
+print(stack) # [1, 10000] Final Answer
+```
+</details>
+
+## Problem To Solve: Stacks
+
+Now its time to show what you have learned!
+
+I have created a more complex stack using a class called "Stacks" and some functions corresponding with the class. Finish the code for the functions to print out correctly.
+
+```py
+class Stacks:
+
+    def __init__(self):
+        self.stack = []
+
+    def push(self, value):
+        # Add code here
+
+    def pop(self):
+        # Add code here
+
+    x = Stack()
+    x.push('red')
+    x.push('blue')
+    x.pop()
+    x.push('yellow')
+    x.pop()
+    print(self.stack)
+
+```
+Solution to [Problem To Solve](answers/stack-answer.md)
+
+Go to [Welcome Page](0-welcome.md)!
