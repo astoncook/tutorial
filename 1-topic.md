@@ -42,9 +42,10 @@ print(stack)
 ```
 
 ## Efficiency
-Push | Pop
+Operators | Efficency
  --- | ---
-O(1) | O(1)
+ Pop | O(1)
+Push | O(1)
 To keep it simple push and pop do not run any loops so the efficency is O(1).
 
 ## Example
