@@ -41,6 +41,12 @@ print(stack)
 # [ 1]
 ```
 
+## Efficiency
+Push | Pop
+ --- | ---
+O(1) | O(1)
+To keep it simple push and pop do not run any loops so the efficency is O(1).
+
 ## Example
 Try this problem yourself and write on a paper line by line to keep track of this problem:
 
