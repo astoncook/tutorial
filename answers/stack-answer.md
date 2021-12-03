@@ -21,4 +21,4 @@ class Stacks:
     print(self.stack) # Answer [red]
 
 ```
-Go back to [Stacks Page](1-topic.md)!
+Go back to [Stacks](1-topic.md)
