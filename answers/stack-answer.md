@@ -21,4 +21,4 @@ class Stacks:
     print(self.stack) # Answer [red]
 
 ```
-Go back to [Stacks](1-topic.md)
+Go back to [Stacks](https://github.com/astoncook/tutorial/blob/master/1-topic.md)

@@ -25,4 +25,4 @@ print(remove_odd(sul2)) # {10, 100, 1000, 10000}
 print(remove_even(su3)) # {3, 5}
 print(remove_even(sul1)) # {1, 9}
 ```
-Go back to [Sets](2-topic.md)
+Go back to [Sets](https://github.com/astoncook/tutorial/blob/master/2-topic.md)
