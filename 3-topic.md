@@ -28,7 +28,23 @@ Looking at the example picture above can you input the additional value?
 We can see that the "15" is less then the "25" at the root so we go to the left. Then it is less than the "20" so we go to the left again. It is greater than the "10" so we go to the right. Then it is greater than the "12" so we go to the right again.
 </details>
 
+The efficency can be different depending on the tree. For example if we have a tree with the root of 2 with the same values the tree would be all going to the right and be very unbalanced. With the unbalanced tree the efficency would be O(n) instead of O(log n).
+
 ## Balanced Binary Search Trees
+![Balanced Binary Search](pictures/balanced-binary-search-example-1.jpg)
+
+In the race to efficency we want to have a balanced tree with as much control of that as possible. Algorithms have been written to see if a tree is unbalanced or not with a goal to correct them. Above is an example of having balanced height and where it can detect the tree becoming unbalanced.
+
+Look at the following tree and make it balanced again.
+<details>
+<summary markdown="span">Solution To Practice Binary Search Tree Example</summary>
+
+![Balanced Binary Search](pictures/balanced-binary-search-example-answer.jpg)
+
+First we have to look and see the problem. As we can see the unbalanced side of the tree is where the "8" is. The height doesnt match up to the other side. We rotate the nodes and now it is balanced.
+
+</details>
+
 
 ## Efficiency
 Operators | Efficency
