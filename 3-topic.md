@@ -48,9 +48,9 @@ First we have to look and see the problem. As we can see the unbalanced side of 
 ## Efficiency
 Operators | Efficency
  --- | ---
-                  Binary | O(1)
+Binary | O(1)
 Unbalanced Binary Search | O(n)
-  Balanced Binary Search | O(log(n))
+Balanced Binary Search | O(log(n))
 The trees range from different complexity. Overall the Balanced tree is more efficent.
 
 ## Problem To Solve: Sets
