@@ -37,7 +37,7 @@ In the race to efficency we want to have a balanced tree with as much control of
 
 Look at the following tree and make it balanced again.
 <details>
-<summary markdown="span">Solution To Practice Binary Search Tree Example</summary>
+<summary markdown="span">Solution To Practice Balanced Binary Search Tree Example</summary>
 
 ![Balanced Binary Search](pictures/balanced-binary-search-example-answer.jpg)
 
@@ -45,44 +45,13 @@ First we have to look and see the problem. As we can see the unbalanced side of 
 
 </details>
 
-
 ## Efficiency
 Operators | Efficency
  --- | ---
-   Add | O(1)
-Remove | O(1)
-These two are very concistant. They run at an average efficency is O(1).
-
-## Example
-This example will help you practice with keeping trakc of the variables and remembering to not count the douplicate items in the sets. Look back to the reading above for some help.
-
-```py
-food = {'soda', 'hamburger', 'pizza', 'cheese', 'icecream'}
-food.add('ice')
-food.remove('soda')
-food.remove('ice')
-food.add('soda')
-food.remove('cheese')
-food.add('beef')
-food.add('ketchup')
-# What remains
-```
-<details>
-<summary markdown="span">Solution To Practice Example</summary>
-
-```py
-food = {'soda', 'hamburger', 'pizza', 'cheese', 'icecream'}
-food.add('ice') # {'soda', 'hamburger', 'pizza', 'cheese', 'icecream', 'ice'}
-food.remove('soda') # {'hamburger', 'pizza', 'cheese', 'icecream', 'ice'}
-food.remove('ice')  # {'hamburger', 'pizza', 'cheese', 'icecream'}
-food.add('soda') # {'hamburger', 'pizza', 'cheese', 'icecream', 'soda'}
-food.remove('cheese') # {'hamburger', 'pizza', 'icecream', 'soda'}
-food.add('beef') # {'hamburger', 'pizza', 'icecream', 'soda', 'beef'}
-food.add('ketchup') # {'hamburger', 'pizza', 'icecream', 'soda', 'beef', 'ketchup'}
-
-#Solution is : {'hamburger', 'pizza', 'icecream', 'soda', 'beef'}
-```
-</details>
+                  Binary | O(1)
+Unbalanced Binary Search | O(n)
+  Balanced Binary Search | O(log(n))
+The trees range from different complexity. Overall the Balanced tree is more efficent.
 
 ## Problem To Solve: Sets
 Now its time to show what you have learned!
