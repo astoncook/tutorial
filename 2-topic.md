@@ -45,6 +45,14 @@ set1.remove('soda') # Removes cat from set1
 set1.discard(10) # Discards cow from set1
 # set1 = {'hamburger', 100}
 ```
+
+## Efficiency
+Operators | Efficency
+ --- | ---
+   Add | O(1)
+Remove | O(1)
+These two are very concistant. They run at an average efficency is O(1).
+
 ## Example
 This example will help you practice with keeping trakc of the variables and remembering to not count the douplicate items in the sets. Look back to the reading above for some help.
 
