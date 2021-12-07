@@ -10,10 +10,12 @@ In this lesson we will be learning about the following types of trees:
 
 ## Binary Trees
 ![Binary](pictures/binary.png)
+
 This type of tree that can only link up to two nodes. The different type of nodes are root, leaf, child, and parent nodes. These make up the tree. The leaf nodes are the nodes that dont connect to any other nodes. The root node is the top and spans to other nodes. The nodes that are connected to the parent are called the child nodes, and lastly the parent nodes are connected to other nodes. 
 
 ## Binary Search Tree
-![BinarySearch](pictures/binary-search.png)
+![Binary Search](pictures/binary-search.png)
+
 The binary search tree follows the rules placed in the tree corresponding with the data. This means that if the data being added to the tree is greater or less than the parent node, the data will either be put in the left subtree or right subtree. This process sorts all of the data.
 
 Looking at the example picture above can you input the additional value?
@@ -21,7 +23,8 @@ Looking at the example picture above can you input the additional value?
 <details>
 <summary markdown="span">Solution To Practice Binary Search Tree Example</summary>
 
-![BinarySearchAnswer](pictures/binary-search-answer.png)
+![Binary Search Answer](pictures/binary-search-answer.png.jpg)
+
 We can see that the "15" is less then the "25" at the root so we go to the left. Then it is less than the "20" so we go to the left again. It is greater than the "10" so we go to the right. Then it is greater than the "12" so we go to the right again.
 </details>
 
