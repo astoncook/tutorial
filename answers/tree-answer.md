@@ -35,3 +35,4 @@ tree.insert(6)
 for x in tree:
     print(x)  # 1, 3, 4, 5, 6, 7, 10
 ```
+Go back to [Trees](https://github.com/astoncook/tutorial/blob/master/3-topic.md)
